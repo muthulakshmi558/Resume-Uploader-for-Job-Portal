@@ -1,0 +1,9 @@
+{% extends "resumeapp/Layout/base.html" %}
+{% block content %}
+  <h2>{{ resume.name }} ({{ resume.email }})</h2>
+  {% if resume.file %}
+    <p><a href="{{ resume.file.url }}" download>Download resume</a></p>
+  {% else %}
+    <p>No file attached.</p>
+  {% endif %}
+{% endblock %}
