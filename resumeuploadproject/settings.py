@@ -24,9 +24,13 @@ MEDIA_ROOT = BASE_DIR / 'media'
 SECRET_KEY = 'django-insecure-_g5mt--%8@t6n-lqwxm_q#2u-ku(q%9o&-_zwp#vm-yb=h4-%@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False   
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "localhost",   # Local development
+    "127.0.0.1",
+    ".onrender.com",  
+]
 
 
 # Application definition
