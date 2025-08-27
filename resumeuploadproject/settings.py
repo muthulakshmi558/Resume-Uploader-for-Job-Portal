@@ -29,7 +29,8 @@ DEBUG = False
 ALLOWED_HOSTS = [
     "localhost",   # Local development
     "127.0.0.1",
-    ".onrender.com",  
+    ".onrender.com", 
+"resume-uploader-for-job-portal-ltzi.onrender.com", 
 ]
 
 
